@@ -2,68 +2,55 @@ const chalk = require("chalk")
 const fs = require("fs")
 //aumto presence update
 global.autoTyping = false // auto tying in gc (true to on, false to off)
-global.autoRecord = true // auto recording (true to on, false to off)
-global.autoblockmorroco = true // auto block 212 (true to on, false to off)
+global.autoRecord = false // auto recording (true to on, false to off)
+global.autoblockmorroco = false // auto block 212 (true to on, false to off)
 global.wlcm = true
-global.autokickmorroco = true// auto kick 212 (true to on, false to off) 
-global.antispam = true //auto kick spammer (true to on, false to off)
-global.autosahur = true // auto sahur (true to on, false to off)
+global.autokickmorroco = false// auto kick 212 (true to on, false to off) 
+global.antispam = false //auto kick spammer (true to on, false to off)
 
 //===============SETTING MENU==================\\
-global.channel = '120363397635795955@newsletter' // GANTI DENGAN ID CHMU KALO ADA
-global.channeln = 'Neza Official' // GANTI DENGAN NAMA CH MU
+global.channel = '-' // GANTI DENGAN ID CHMU KALO ADA
+global.channeln = 'SansDiv' // GANTI DENGAN NAMA CH MU
 //===============SETTING MENU==================\\
 global.prefix = ['','!','.','#','&']
 global.thumbnail = 'https://i.ibb.co.com/21SXxSr6/Gemini-Generated-Image-jk17krjk17krjk17.png'
-global.music = 'https://tmpfiles.org/dl/31390868/file.mp3'
 global.ig = 'https://instagram.com/gd'
-global.tele = 'https://t.me/NezacomeHere'
 global.ttowner = '-'
-global.ownername = 'Neza Official'
-global.owner = ['628xxx','628xx'] // database diisi jga di lib
+global.ownername = 'SanDiv'
+global.owner = ['6289603221280','6281235854018'] // database diisi jga di lib
 global.ownernomer = '6289603221280'
 global.socialm = 'GitHub: -'
 global.location = 'Indonesia' 
 //========================Setting API=====================\\
 global.nz = [
-    'nz-e98e71fd41',
-    'nz-f0ccb09fe1',
-    'nz-d7f75016a2',
-    'nz-97bf45bd87',
-    'nz-4ce5fb3be3'
+    'nz-9318fc6c10'
     ]
 global.frch = [
-    "29015f61cbaa2b36f26bcd61c0b087c0421e4f8f16c67809d4b67091863bf483",
-    "3b00b2f1d5201dee96ed46eca909ef4be8abdbad1bc876fe6384bc42256ed24f"
-    ] // Kalo mau nambah api sendiri ke https://asitha.top/login?ref=ahmadakb6455
+    "19f5a2b955939bfe90d395f1984dea9b1ef7e02a0ea4dc2d2a0544587c109db5",
+    ] 
 //========================setting Payment=====================\\
-global.nodana = '082176642989' // KOSONG KAN JIKA TIDAK ADA
+global.nodana = '_' // KOSONG KAN JIKA TIDAK ADA
 global.nogopay = '_' // KOSONG KAN JIKA TIDAK ADA 
 global.noovo = false // KOSONG KAN JIKA TIDAK ADA
 //==================setting Payment Name===========================\\
-global.andana = 'Ismarintan' // KOSONG KAN JIKA TIDAK ADA
+global.andana = '_' // KOSONG KAN JIKA TIDAK ADA
 global.angopay = false // KOSONG KAN JIKA TIDAK ADA
 global.anovo = false // KOSONG KAN JIKA TIDAK ADA
 //==================setting bot===========================\\
 global.botname = "Seo Nari - Kawai"
-global.ownernumber = '6285707390310'
-global.botnumber = '6285707390310' // isi no bot mu
-global.ownername = 'Neza Official'
-global.ownerNumber = ["6285707390310@s.whatsapp.net"]
-global.ownerweb = "nezastoreofficial.com"
-global.websitex = "nezastoreofficial.com"
-global.wagc = "https://chat.whatsapp.com/Dj1owStprbw7vMKjZGmwQp?mode=gi_t"
-global.saluran = "https://whatsapp.com/channel/0029VbAeB8wAojYyGtloEf3G"
+global.ownernumber = '6289603221280'
+global.botnumber = '6281235854018' // isi no bot mu
+global.ownername = 'SansDiv'
+global.ownerNumber = ["6289603221280@s.whatsapp.net"]
 global.themeemoji = '🫐'
-global.wm = "Seo Kawai"
-global.botscript = 'https://chat.whatsapp.com/Dj1owStprbw7vMKjZGmwQp?mode=gi_t\nBayar Subscribe: https://www.youtube.com/@ShyoCode' //script link
-global.packname = "SEO KAWAI"
-global.author = "\n\n\n\n\nDibuat Oleh Seo Nari\nYT : Akane"
-global.creator = "6285707390310@s.whatsapp.net"
+global.wm = "Nigga"
+global.packname = "Nigga"
+global.author = "\n\n\n\n\nDibuat Oleh SansDiv"
+global.creator = "6289603221280@s.whatsapp.net"
 //======================== CPANEL FITUR ===========================\\
-global.domain = 'https://panel.sekedarstore.com' // Isi Domain Lu jangan kasih tanda / di akhir link
-global.apikey = 'ptla_RiqNf0iCr6s08DLTwkXgWndOhZRJ4VxKRi4oJG4Wtu6' // Isi Apikey Plta Lu
-global.capikey = 'ptlc_dHqgrA1oZZ0n6AA4hiT2uCKGKHpKxU5xjL1bxAJPKDx' // Isi Apikey Pltc Lu
+global.domain = '_' // Isi Domain Lu jangan kasih tanda / di akhir link
+global.apikey = '_' // Isi Apikey Plta Lu
+global.capikey = '_' // Isi Apikey Pltc Lu
 //=========================================================//
 global.apiDigitalOcean = "-"
 //=========================================================//
@@ -71,12 +58,12 @@ global.apiDigitalOcean = "-"
 global.apikey2 = '-' // Isi Apikey Plta Lu
 global.capikey2 = '-' // Isi Apikey Pltc Lu
 global.domain2 = '-' // Isi Domain Lu
-global.docker2 = "ghcr.io/cekilpedia/vip:sanzubycekil" //jangan di ubah
+global.docker2 = "-" //jangan di ubah
 
 global.eggsnya2 = '15' // id eggs yang dipakai
 global.location2 = '1' // id location
 //===========================//
-global.virtuSimApiKey = 'k6R8Z1xGVBdgPvO5hNyuS'
+global.virtuSimApiKey = ''
 global.domainotp = "https://claudeotp.com/api"
 global.eggsnya = '15' // id eggs yang dipakai
 global.nodes = '2'
@@ -87,25 +74,25 @@ global.tekspushkonv3 = ""
 global.tekspushkonv4 = ""
 //===========================//
 global.mess = {
-   wait: "*Sabar Yah Seo Makeup Dulu🌺*",
-   success: "Yeyyy Berhasil",
-   on: "Nyala Woi",
-   off: "Aduh Mati Deh",
+   wait: "*Sabar Nigga*",
+   success: "Wes rampung",
+   on: "Urip",
+   off: "Mati",
    query: {
-       text: "Teksnya Mana Suamiku?",
-       link: "Link nya kirim dong sayang",
-       image: "Gambarnya mana nih? jahat banget engga ngasi:<",
+       text: "Teksnya Mana?",
+       link: "Link nya kirim anj",
+       image: "gambare ndi tempek",
    },
    error: {
-       fitur: "Whoops! Eror nih... laporin ke suami saya",
+       fitur: "error cik owner e ndi iki",
    },
    only: {
-       group: "Eh, Kak! Fitur ini bisanya buat grup nihh 🫂",
-       private: "Ngapain yah chat pribadi aku? iya tau aku cantik ",
-       owner: "Khusus suami ku ini",
-       admin: "Khusus grub beb",
-       badmin: "Akunya jadi admin dulu dong sayang",
-       premium: "Ini fitur premium sayang, beli di owner aku yang ganteng",
+       group: "Fiture gor ng grup rek",
+       private: "pm only rek",
+       owner: "gor nggo owner",
+       admin: "gor dinggo admin",
+       badmin: "kudu admin aku",
+       premium: "premium iki",
    }
 }
 //========================================\\
@@ -208,7 +195,7 @@ global.rpg = {
 }
 
 //new
-global.sessionName = 'SeoSession'
+global.sessionName = 'Session'
 global.hituet = 0
 //media target
 global.thum = fs.readFileSync("./data/image/thumb.jpg") //ur thumb pic
