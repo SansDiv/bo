@@ -13,7 +13,7 @@ global.channel = '-' // GANTI DENGAN ID CHMU KALO ADA
 global.channeln = 'SansDiv' // GANTI DENGAN NAMA CH MU
 //===============SETTING MENU==================\\
 global.prefix = ['','!','.','#','&']
-global.thumbnail = 'https://i.ibb.co.com/21SXxSr6/Gemini-Generated-Image-jk17krjk17krjk17.png'
+global.thumbnail = 'https://cdn.discordapp.com/attachments/1495456480730546277/1495457011679232010/IMG-20260419-WA0044.jpg?ex=69e6505f&is=69e4fedf&hm=bb73dd527b0b444e9f71d8fca7ea18a89e85f61d72a7a487545309c265638a52&'
 global.ig = 'https://instagram.com/gd'
 global.ttowner = '-'
 global.ownername = 'SanDiv'
